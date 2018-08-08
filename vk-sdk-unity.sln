@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vk-sdk-unity", "vk-sdk-unity.csproj", "{9B252A70-568E-B6F5-E157-4506DF4094DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK.Unity", "VK.Unity\VK.Unity.csproj", "{22C4A471-6230-4BE3-A1CB-436F63E624EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VK.Unity.Editor", "VK.Unity.Editor\VK.Unity.Editor.csproj", "{58BC61F0-2D00-4B8F-896D-CA6BE361DE88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B252A70-568E-B6F5-E157-4506DF4094DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B252A70-568E-B6F5-E157-4506DF4094DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B252A70-568E-B6F5-E157-4506DF4094DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B252A70-568E-B6F5-E157-4506DF4094DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C4A471-6230-4BE3-A1CB-436F63E624EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C4A471-6230-4BE3-A1CB-436F63E624EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C4A471-6230-4BE3-A1CB-436F63E624EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C4A471-6230-4BE3-A1CB-436F63E624EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BC61F0-2D00-4B8F-896D-CA6BE361DE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BC61F0-2D00-4B8F-896D-CA6BE361DE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BC61F0-2D00-4B8F-896D-CA6BE361DE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BC61F0-2D00-4B8F-896D-CA6BE361DE88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
