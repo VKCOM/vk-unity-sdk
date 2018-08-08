@@ -259,8 +259,6 @@ public class ExampleClass : MonoBehaviour {
 #endif
 }
 ```
-***
-Full example you can see at [this]() repository.
 
 
 
