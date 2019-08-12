@@ -121,11 +121,17 @@ namespace VK.Unity.Web
 
         private class JSBridge : MonoBehaviour
         {
+#if UNITY_WEBGL   // For compile at IL2CPP on Android
+
             [DllImport("__Internal")]
             public static extern void Handler(string method, string param, Action<string> callbackAction);
 
             [DllImport("__Internal")]
             public static extern void Handler(string method, string param);
+#else
+            public static void Handler(string method, string param, Action<string> callbackAction) { }
+            public static void Handler(string method, string param) { }
+#endif
         }
     }
 }
